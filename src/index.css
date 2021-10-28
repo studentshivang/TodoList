@@ -1,0 +1,528 @@
+/* To-do List App starts here */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans","Arial Narrow",Arial ,sans-serif;
+}
+
+.main_div{
+    width: 100%;
+    height:100vh;
+    background: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center_div{
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0,0.5);
+    border-radius: 15px;
+}
+
+h1{
+    color: white;
+    background: transparent;
+    background-color: goldenrod;
+    padding: 6px 0px 2px 0px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+}
+
+input{
+    text-align: center;
+    height: 30px;
+    top:10px;
+    border: none;   
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid goldenrod;
+    outline: none;
+}
+
+button{
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff;
+    background-color: goldenrod;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+}
+
+button:hover{
+    background-color: #20bf6b;
+}
+
+ol{
+    margin-top: 30px;
+}
+
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: brown;
+    text-transform:capitalize;
+}
+
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.todo_style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:monospace;
+    font-weight: 900;
+    background-color: goldenrod;
+    border-radius: 50%;
+    margin: 0 35px 0 15px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0,0.3);
+}
+
+.todo_style .fa-times:hover{
+    background-color: crimson;
+}
+
+@media (max-width:768px) {
+    .center_div{
+        width: 55%;
+    }
+    
+    .todo_style .fa-times{
+        margin: 0 15px 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        font-size: large;
+        margin-left: 5px;
+        min-height: 40px;
+        width: 40px;
+        color: #fff;
+        font-size: 30px;
+    }
+} 
+
+/* To-do List App ends here */
+
+
+
+
+/* Tasks 34-39 start here */
+/* 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d2dddb;
+    font-family: Arial;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    background:#9b59b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+}
+
+p{
+    background:none;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+input{
+    width:84%;
+    font-weight: 900;
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    margin:20px 0;
+    text-align: center;
+    text-align: center;
+}
+
+button{
+    line-height: 24px;
+    font-weight: 900;
+    padding:0 20px;
+    background: #9b59b6;
+    color: white;
+    border: 2px solid #ecf0f1;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+/* Tasks 34-39 end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Task 33 starts here */
+
+/* *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+div{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+button{
+    width: 16rem;
+    height: 8rem;
+    border-radius: 2rem;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: #b19cd9;
+    border-width: 0.4rem;
+    border-color: aliceblue;
+    font-size: large;
+} */
+
+/* Task 33 ends here */
+
+
+
+
+
+
+
+
+
+/* Task 32 starts here */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #aff0f4;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:sienna;
+} */
+
+/* Task 32 ends here */
+
+/* Tasks 30 and 31 start here */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: pink;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 1.2rem 2rem;
+    border-radius: 20px;
+    background-color: #aff0f4;
+    font-weight: bold;
+    font-size: large;
+    outline: none;
+} */
+
+/* Task 30 and 31 end here */
+
+/* Task 28 starts here */
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(00, 225, 185,1);
+}
+
+h1{
+    text-align: center;
+    background-color: brown;
+    padding: 2rem;
+}
+
+span{
+    background-color: goldenrod;
+}
+
+div{
+    text-align: center;
+    font-weight: bold;
+}
+hr{
+    width: 30.5%;
+    margin: auto;   
+}
+
+.vert{
+    width: 32%;
+    transform:rotate(90deg) translate(-51%,11.8rem);
+}
+.hori{
+    width: 32%;
+    transform:rotate(90deg) translate(-51%,-11.8rem);
+}
+*/
+
+/* Task 28 ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    background-color: #d2dbdd;
+}
+
+.heading_style{
+    padding:30px 0;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:#868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 1);
+    float: left;
+}
+
+
+.card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 1);
+    transform: scale(1.05,1.05);
+}
+
+.card__img{
+    width:100%;
+    height: 288 px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card__info{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card__category{
+    font-family: "Raleway",sans-serif;
+ 	text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+}
+
+.card__title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+button{
+    padding: 5px 8px;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #868686;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .card{
+        width: 88%;
+    }
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color:#b4f2e1;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.just{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color:palevioletred;
+    background-color:papayawhip;
+    padding:20px;
+    border-radius:20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.img_div{
+    display:flex;
+    justify-content: center;
+}
+
+.img_div img{
+    height: 300px;
+    width: 250px;
+
+} */
